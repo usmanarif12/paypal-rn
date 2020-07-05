@@ -26,8 +26,8 @@ app.get("/paypal", (req, res) => {
             "payment_method": "paypal"
         },
         "redirect_urls": {
-            "return_url": "http://192.168.10.5:3000/success",
-            "cancel_url": "http://192.168.10.5:3000/cancel"
+            "return_url": "http://localhost/success",
+            "cancel_url": "http://localhost/cancel"
         },
         "transactions": [{
             "item_list": {
