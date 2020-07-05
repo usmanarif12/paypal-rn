@@ -1,7 +1,7 @@
 const express = require("express");
 const engines = require("consolidate");
 const paypal = require("paypal-rest-sdk");
-const PORT = process.env.PORT || 5000;
+var PORT = process.env.PORT || 3000;
 const path = require('path');
 const app = express();
 
@@ -86,6 +86,6 @@ paypal.payment.execute(paymentId, execute_payment_json, function (error, payment
 app.get("/cancel", (req, res) => {
     res.render('cancel')
 })
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log("Server is running");
 });
