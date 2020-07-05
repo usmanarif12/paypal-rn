@@ -1,7 +1,6 @@
 {
   "name": "paypal-rn",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,24 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "engines": {
+    "node": "10.16.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmanarif12/paypal-rn.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+
+  "bugs": {
+    "url": "https://github.com/usmanarif12/paypal-rn/issues"
+  },
+  "homepage": "https://github.com/usmanarif12/paypal-rn#readme",
+  "description": ""
 }
+
