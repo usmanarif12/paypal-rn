@@ -86,6 +86,6 @@ paypal.payment.execute(paymentId, execute_payment_json, function (error, payment
 app.get("/cancel", (req, res) => {
     res.render('cancel')
 })
-app.listen(PORT, () => {
+app.listen(3000, () => {
     console.log("Server is running");
 });
